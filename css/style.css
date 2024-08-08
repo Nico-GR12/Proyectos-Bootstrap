@@ -1,0 +1,34 @@
+.logo{
+    width: 60px;
+}
+
+.services i{
+    font-size: 130px;
+}
+
+.juegos img{
+    width: 230px;
+    height: 310px;
+}
+
+.galery img{
+    width: 100%;
+    height: 200px;
+}
+
+footer i{
+    font-size: 2.5em;
+}
+
+
+@media(max-width: 762px){
+    .logo{
+        width: 40px;
+    }
+
+    .juegos img{
+        width: 200px;
+        height: 250px;
+    }
+}
+    
