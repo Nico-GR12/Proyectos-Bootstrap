@@ -1,3 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap');
+
+*{
+    font-family: "Poppins", sans-serif;
+}
+
+nav span{
+    font-weight: 800;
+}
+
+
 .logo{
     width: 60px;
 }
@@ -7,7 +18,7 @@
 }
 
 .juegos img{
-    width: 230px;
+    width: 100%;
     height: 310px;
 }
 
@@ -16,19 +27,49 @@
     height: 200px;
 }
 
-footer i{
-    font-size: 2.5em;
+.dos img{
+    width: 100%;
+    height: 520px;
+}
+
+.medios img{
+    width: 50%;
+}
+
+.grande{
+    font-weight: 800;
+}
+
+.luc img{
+    width: 100%;
+    height: 300px;
+}
+
+@media screen and (min-width:763px) and (max-width:991px){
+    .services i{
+        font-size: 100px;
+    }
 }
 
 
-@media(max-width: 762px){
+@media screen and (max-width:762px){
     .logo{
         width: 40px;
     }
 
     .juegos img{
-        width: 200px;
-        height: 250px;
+        width: 100%;
+        height: 370px;
+    }
+
+    .dos img{
+        width: 1000%;
+        height: 350px;
+    }
+
+    .luc img{
+        width: 100%;
+        height: 280px;
     }
 }
     

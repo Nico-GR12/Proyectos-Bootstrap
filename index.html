@@ -9,9 +9,9 @@
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    <nav class="navbar navbar-expand-lg navbar-ligh bg-light fixed-top mb-5">
+    <nav class="navbar navbar-expand-lg navbar-ligh bg-body-secondary fixed-top">
         <div class="container">
-            <a href="" class="navbar-brand"><img class="logo" src="img/editado-removebg-preview.png" alt=""></a>
+            <a href="" class="navbar-brand"><img class="logo" src="img/editado-removebg-preview.png" alt=""><span class="text-danger">SPACE</span><span>-GAME</span></a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                     data-bs-target="#navbar-start" aria-controls="navbar-start" aria-expanded="false">
                 <span class="navbar-toggler-icon"></span>
@@ -19,16 +19,13 @@
             <div class="collapse navbar-collapse" id="navbar-start">
                 <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
                     <li class="nav-item">
-                        <a href="#" class="nav-link">About</a>
+                        <a href="index.html" class="nav-link">Inicio</a>
                     </li>
                     <li class="nav-item">
-                        <a href="#" class="nav-link">Servicios</a>
+                        <a href="consolas.html" class="nav-link">Consolas</a>
                     </li>
                     <li class="nav-item">
-                        <a href="#" class="nav-link">Portafolio</a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="#" class="nav-link">Contactos</a>
+                        <a href="videojuegos.html" class="nav-link">Videojuegos</a>
                     </li>
                 </ul>
             </div>
@@ -49,34 +46,48 @@
                     data-bs-slide-to="2" 
                     aria-label="Slide 3">
             </button>
+            <button type="button" data-bs-target="#carouselE1"
+                    data-bs-slide-to="3" 
+                    aria-label="Slide 4">
+            </button>
         </div>
-        <div class="carousel-inner mt-5">
+        <div class="carousel-inner mt-5 pt-3">
             <div class="carousel-item active mb-3">
                 <img src="img/car1.jpeg" class="d-block w-100" alt="">
-                <div class="carousel-caption bg-dark p-2 text-dark bg-opacity-75 text-white">
+                <div class="carousel-caption bg-dark p-2 text-dark bg-opacity-75 text-white d-none d-md-block">
                     <h5>Halo Infinite</h5>
                     <p>
-                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Illo eaque cumque odit voluptates voluptatum.
+                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Illo eaque cumque odit voluptates voluptatum. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptates, nobis a harum repellendus possimus, aspernatur iure aut ut modi ipsa ipsum enim. Amet cumque voluptas reiciendis laboriosam, quam eum aut.
                     </p>
                     <button class="btn btn-primary">Leer Mas</button>
                 </div>
             </div>
             <div class="carousel-item mb-3">
                 <img src="img/car2.jpg" class="d-block w-100" alt="">
-                <div class="carousel-caption bg-dark p-2 text-dark bg-opacity-75 text-white">
+                <div class="carousel-caption bg-dark p-2 text-dark bg-opacity-75 text-white d-none d-md-block">
                     <h5>AssasinS Creed</h5>
                     <p>
-                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Illo eaque cumque odit voluptates voluptatum.
+                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Illo eaque cumque odit voluptates voluptatum. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptates, nobis a harum repellendus possimus, aspernatur iure aut ut modi ipsa ipsum enim. Amet cumque voluptas reiciendis laboriosam, quam eum aut.
                     </p>
                     <button class="btn btn-primary">Leer Mas</button>
                 </div>
             </div>
             <div class="carousel-item mb-3">
                 <img src="img/car3.jpg" class="d-block w-100" alt="">
-                <div class="carousel-caption bg-dark p-2 text-dark bg-opacity-75 text-white">
+                <div class="carousel-caption bg-dark p-2 text-dark bg-opacity-75 text-white d-none d-md-block">
                     <h5>Gear of War</h5>
                     <p>
-                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Illo eaque cumque odit voluptates voluptatum.
+                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Illo eaque cumque odit voluptates voluptatum. Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi non, ut voluptates animi fugiat vero quod doloremque perspiciatis a accusantium sint facere praesentium, nobis totam ex impedit omnis dolorem inventore.
+                    </p>
+                    <button class="btn btn-primary">Leer Mas</button>
+                </div>
+            </div>
+            <div class="carousel-item mb-3">
+                <img src="img/car4.jpg" class="d-block w-100" alt="">
+                <div class="carousel-caption bg-dark p-2 text-dark bg-opacity-75 text-white d-none d-md-block">
+                    <h5>Gear of War</h5>
+                    <p>
+                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Illo eaque cumque odit voluptates voluptatum. Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi non, ut voluptates animi fugiat vero quod doloremque perspiciatis a accusantium sint facere praesentium, nobis totam ex impedit omnis dolorem inventore.
                     </p>
                     <button class="btn btn-primary">Leer Mas</button>
                 </div>
@@ -113,14 +124,14 @@
         </div>
     </section>
 
-    <section class="juegos bg-dark mb-3">
+    <section class="juegos mb-3">
         <div class="container">
-            <div class="row">
+            <div class="row justify-content-center">
                 <div class="col-12 col-md-12 col-lg-12 mb-3">
-                    <h2 class="fw-bold text-white">Juegos</h2>
+                    <h2 class="fw-bold text-dark">Juegos</h2>
                 </div>
-                <div class="col-12 col-md-6 col-lg-3">
-                    <div class="shadow-ms border-0 px-2 py-3 mb-4 text-white">
+                <div class="col-10 col-md-6 col-lg-3">
+                    <div class="card shadow p-3 mb-5 bg-dark text-white">
                         <div class="text-center mb-3">
                             <img src="img/juego_1.jpg" alt="">
                         </div>
@@ -133,8 +144,8 @@
                         <button class="btn btn-primary">Leer Mas</button>
                     </div>
                 </div>
-                <div class="col-12 col-md-6 col-lg-3">
-                    <div class="shadow-ms border-0 px-2 py-3 mb-4 text-white">
+                <div class="col-10 col-md-6 col-lg-3">
+                    <div class="card shadow p-3 mb-5 bg-dark text-white">
                         <div class="text-center mb-3">
                             <img src="img/juego_2.jpg" alt="">
                         </div>
@@ -147,8 +158,8 @@
                         <button class="btn btn-primary">Leer Mas</button>
                     </div>
                 </div>
-                <div class="col-12 col-md-6 col-lg-3">
-                    <div class="shadow-ms border-0 px-2 py-3 mb-4 text-white">
+                <div class="col-10 col-md-6 col-lg-3">
+                    <div class="card shadow p-3 mb-5 bg-dark text-white">
                         <div class="text-center mb-3">
                             <img src="img/juego_3.jpg" alt="">
                         </div>
@@ -161,8 +172,8 @@
                         <button class="btn btn-primary">Leer Mas</button>
                     </div>
                 </div>
-                <div class="col-12 col-md-6 col-lg-3">
-                    <div class="shadow-ms border-0 px-2 py-3 mb-4 text-white">
+                <div class="col-10 col-md-6 col-lg-3">
+                    <div class="card shadow p-3 mb-5 bg-dark text-white">
                         <div class="text-center mb-3">
                             <img src="img/juego_4.jpeg" alt="">
                         </div>
@@ -175,11 +186,11 @@
                         <button class="btn btn-primary">Leer Mas</button>
                     </div>
                 </div>
-                <div class="col-12 col-md-12 col-lg-12 mb-3 text-white">
+                <div class="col-12 col-md-12 col-lg-12 mb-3 text-dark">
                     <h2>Accesorios</h2>
                 </div>
-                <div class="col-12 col-md-6 col-lg-3">
-                    <div class="shadow-ms border-0 px-2 py-3 mb-4 text-white">
+                <div class="col-10 col-md-6 col-lg-3">
+                    <div class="card shadow p-3 mb-5 bg-dark text-white">
                         <div class="text-center mb-3">
                             <img src="img/card_1.png" alt="">
                         </div>
@@ -192,8 +203,8 @@
                         <button class="btn btn-primary">Leer Mas</button>
                     </div>
                 </div>
-                <div class="col-12 col-md-6 col-lg-3">
-                    <div class="shadow-ms border-0 px-2 py-3 mb-4 text-white">
+                <div class="col-10 col-md-6 col-lg-3">
+                    <div class="card shadow p-3 mb-5 bg-dark text-white">
                         <div class="text-center mb-3">
                             <img src="img/card_2.png" alt="">
                         </div>
@@ -206,8 +217,8 @@
                         <button class="btn btn-primary">Leer Mas</button>
                     </div>
                 </div>
-                <div class="col-12 col-md-6 col-lg-3">
-                    <div class="shadow-ms border-0 px-2 py-3 mb-4 text-white">
+                <div class="col-10 col-md-6 col-lg-3">
+                    <div class="card shadow p-3 mb-5 bg-dark text-white">
                         <div class="text-center mb-3">
                             <img src="img/card_3.png" alt="">
                         </div>
@@ -220,8 +231,8 @@
                         <button class="btn btn-primary">Leer Mas</button>
                     </div>
                 </div>
-                <div class="col-12 col-md-6 col-lg-3">
-                    <div class="shadow-ms border-0 px-2 py-3 mb-4 text-white">
+                <div class="col-10 col-md-6 col-lg-3">
+                    <div class="card shadow p-3 mb-5 bg-dark text-white">
                         <div class="text-center mb-3">
                             <img src="img/card_4.png" alt="">
                         </div>
@@ -241,90 +252,142 @@
     
     <section class="galery mb-5">
         <div class="container">
-            <div class="row text-center">
-                <div class="col-12 col-md-6 col-lg-3">
+            <div class="row justify-content-center">
+                <div class="col-10 col-md-6 col-lg-3">
                     <img src="img/Galeria_1.jpeg" class="d-block w-100" alt="">
                 </div>
-                <div class="col-12 col-md-6 col-lg-3">
+                <div class="col-10 col-md-6 col-lg-3">
                     <img src="img/galeria_2.png" class="d-block w-100" alt="">
                 </div>
-                <div class="col-12 col-md-6 col-lg-3">
+                <div class="col-10 col-md-6 col-lg-3">
                     <img src="img/galeria_3.jpg" class="d-block w-100" alt="">
                 </div>
-                <div class="col-12 col-md-6 col-lg-3">
+                <div class="col-10 col-md-6 col-lg-3">
                     <img src="img/galeria_4.png" class="d-block w-100" alt="">
                 </div>
-                <div class="col-12 col-md-6 col-lg-3">
+                <div class="col-10 col-md-6 col-lg-3">
                     <img src="img/galeria_5.jpg" class="d-block w-100" alt="">
                 </div>
-                <div class="col-12 col-md-6 col-lg-3">
+                <div class="col-10 col-md-6 col-lg-3">
                     <img src="img/galeria_6.jpg" class="d-block w-100" alt="">
                 </div>
-                <div class="col-12 col-md-6 col-lg-3">
+                <div class="col-10 col-md-6 col-lg-3">
                     <img src="img/galeria_7.jpeg" class="d-block w-100" alt="">
                 </div>
-                <div class="col-12 col-md-6 col-lg-3">
+                <div class="col-10 col-md-6 col-lg-3">
                     <img src="img/galeria_8.jpg" class="d-block w-100" alt="">
                 </div>
             </div>
         </div>
     </section>
 
-    <section class="contact">
-        <div class="container mb-3 mb-lg-5">
-            <div class="row">
-                <div class="col-md-12">
-                    <div class="section-header text-center pb-2 pb-lg-5">
-                        <h2>Contacto</h2>
-                        <p>
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. <br> Nulla dolorum adipisci libero repellendus.
-                        </p>
-                    </div>
-                </div>
-            </div>
-            <div class="d-flex justify-content-center">
-                <div class="col-12 col-md-12 col lg-6 pt-4">
-                    <form action="#" class="bg-light p-4 m-auto shadow-sm">
-                        <div class="row">
-                            <div class="col-md-12">
-                                <div class="mb-3">
-                                    <input class="form-control" placeholder="Nombre" type="text" required>
-                                </div>
-                            </div>
-                            <div class="col-md-12">
-                                <div class="mb-3">
-                                    <input class="form-control" placeholder="Email" type="email" required>
-                                </div>
-                            </div>
-                            <div class="col-md-12">
-                                <div class="mb-3">
-                                    <textarea class="form-control" placeholder="Mensaje" rows="3" required></textarea>
-                                </div>
-                            </div>
-                            <button class="btn btn-primary btn-lg btn-block mt-3" type="button">Enviar</button>
-                        </div>
-                    </form>
-                </div>
-            </div>
-        </div>
-    </section>
+    <div class="cintainer text-center mt-3 mb-5">
+        <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+            Registrarse
+        </button>
+        <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#contact">
+            Contactanos
+        </button>
+    </div>
 
     <footer class="bg-dark p-2 text-center">
         <div class="container">
             <div class="row">
                 <div class="col-4 text-white">
-                    <a href="#" class="text-white"><i class="bi bi-facebook"></i></a>
+                    <a href="#" class="text-white"><i class="bi bi-facebook fs-1"></i></a>
                 </div>
                 <div class="col-4 text-white">
-                    <a href="#" class="text-white"><i class="bi bi-instagram"></i></a>
+                    <a href="#" class="text-white"><i class="bi bi-instagram fs-1"></i></a>
                 </div>
                 <div class="col-4 text-white">
-                    <a href="#" class="text-white"><i class="bi bi-twitter-x"></i></a>
+                    <a href="#" class="text-white"><i class="bi bi-twitter-x fs-1"></i></a>
                 </div>
             </div>
             <p class="text-white mt-3">&#169 Todos los derechos reservados</p>
         </div>
     </footer>
+
+    <div class="container">
+        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h1 class="modal-title fs-5" id="exampleModalLabel">Registrarse</h1>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <form>
+                            <div class="mb-3">
+                                <label for="exampleInputEmail1" class="form-label">Nombre</label>
+                                <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                            </div>
+                            <div class="mb-3">
+                                <label for="exampleInputEmail1" class="form-label">Apellidos</label>
+                                <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                            </div>
+                            <div class="mb-3">
+                                <label for="exampleInputEmail1" class="form-label">Telefono</label>
+                                <input type="number" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                            </div>
+                            <div class="mb-3">
+                                <label for="exampleInputEmail1" class="form-label">Cedula</label>
+                                <input type="number" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                            </div>
+                            <div class="mb-3">
+                                <label for="exampleInputEmail1" class="form-label">Fecha de nacimiento</label>
+                                <input type="date" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                            </div>
+                            <div class="mb-3">
+                                <label for="exampleInputEmail1" class="form-label">Email address</label>
+                                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                            </div>
+                            <div class="mb-3">
+                                <label for="exampleInputPassword1" class="form-label">Password</label>
+                                <input type="password" class="form-control" id="exampleInputPassword1">
+                            </div>
+                        </form>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="submit" class="btn btn-primary">Enviar</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="modal fade" id="contact" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h1 class="modal-title fs-5" id="exampleModalLabel">Contactanos</h1>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <div class="container">
+                            <form>
+                                <div class="mb-3">
+                                    <label for="exampleInputEmail1" class="form-label">Correo Electronico</label>
+                                    <input type="email" class="form-control" id="exampleInputEmail1">
+                                </div>
+                                <div div class="mb-3">
+                                    <label for="exampleInputPassword1" class="form-label">Contraseña</label>
+                                    <input type="password" class="form-control" id="exampleInputPassword1">
+                                </div>
+                                <div class="mb-3">
+                                    <label for="nombre" class="form-label">Mensaje</label>
+                                    <textarea type="text" class="form-control" id="nombre"></textarea>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="submit" class="btn btn-primary">Enviar</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 
 
 
